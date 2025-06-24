@@ -2,7 +2,7 @@
 public class EnemyBase extends Enemy{
 	public EnemyBase(double x,double y,double vx,double vy) {
 		super(x,y,vx,vy);
-		life=3000*9;
+		life=300;
 	}
 public void move()
 {
@@ -20,6 +20,9 @@ public void move()
 	}
 	if(Math.random()<0.05) {
 		GameWorld.enemies.add(new CurveEnemy(x,y,0,1));
+	}
+	if(Math.random()<0.05) {
+		GameWorld.enemies.add(new EnemyOG(x,y,0,1));
 	}
 }
 public void draw(MyFrame f) {
