@@ -1,6 +1,7 @@
 
 public class RandomEnemy extends Enemy {
 	int life=2;
+	int score=20;
 	public RandomEnemy(double x, double y, double vx, double vy) {
 		super(x, y, vx, vy);
 	}

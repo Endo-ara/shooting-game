@@ -1,6 +1,7 @@
 
 public class EnemyOG extends Enemy{
-	int life=70000;
+	int life=1;
+	int score=10;
 	public EnemyOG(double x, double y, double vx, double vy) {
 		super(x, y, vx, vy);
 }

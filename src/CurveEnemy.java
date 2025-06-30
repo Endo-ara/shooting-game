@@ -1,6 +1,7 @@
 
 public class CurveEnemy extends Enemy {
 	int life=3;
+	int score=30;
 	public CurveEnemy(double x,double y,double vx,double vy) {
 		super(x,y,vx,vy);
 	}
